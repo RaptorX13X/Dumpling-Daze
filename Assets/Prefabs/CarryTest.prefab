@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strength: 50
+  upStrength: 150
   objectLerpSpeed: 100
 --- !u!54 &2040173495207387402
 Rigidbody:

@@ -10,6 +10,7 @@ public class footsteps : MonoBehaviour
 
     private FMOD.Studio.EventInstance footstepInstance;
     private Vector3 lastPosition;
+    public LayerMask LayerMask;
 
     private void Start()
     {

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f61a3c06df3aae43a69b79de5f812d5, type: 3}
+  m_Name: chilli
+  m_EditorClassIdentifier: 
+  ingredientName: Chilli
+  prefab: {fileID: 1575639790396169483, guid: 9fa71f1a6706ceb44a4f2392247bd2d5, type: 3}
+  price: 425
+  requiredAdvIngr: []

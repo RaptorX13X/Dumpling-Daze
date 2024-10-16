@@ -358,7 +358,7 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     Logging:
       Value: 0
@@ -415,10 +415,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
-  sourceProjectPath: ../../Users/Aurigae/Documents/FMOD Studio/Dumplings/Dumplings.fspro
-  sourceBankPath: ../../Users/Aurigae/Documents/FMOD Studio/Dumplings/Build
+  HasSourceProject: 0
+  HasPlatforms: 0
+  sourceProjectPath: Assets/Audio/FMODBanks/Desktop/Master.bank
+  sourceBankPath: Assets/Audio/FMODBanks/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9323a0eba6e78e4e8a5584c77778e9b, type: 3}
+  m_Name: StrawberryDumpling
+  m_EditorClassIdentifier: 
+  dishName: StrawberryDumpling
+  requiredIngredients:
+  - {fileID: 11400000, guid: 5e0e1dcdeec0ac04ea01a45258a4671f, type: 2}
+  - {fileID: 11400000, guid: 5b5b32dd4b86b9d40aa7ee60752e1296, type: 2}
+  - {fileID: 11400000, guid: 3d271ddcf8ba51542aa34ab3e2845548, type: 2}
+  price: 900
+  prefab: {fileID: 2207124167960970523, guid: 11502f1604fb7e04d9b95652f0ec5cca, type: 3}
+  dishSprite: {fileID: 21300000, guid: 59c2f51cfa16f014b8158b3e7a562bd2, type: 3}

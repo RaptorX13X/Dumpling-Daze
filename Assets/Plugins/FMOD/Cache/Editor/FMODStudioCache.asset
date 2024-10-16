@@ -1,5 +1,85 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9033305130873873183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ThrowingDumplings
+  m_EditorClassIdentifier: 
+  Path: event:/ThrowingDumplings
+  Guid:
+    Data1: -1892776231
+    Data2: 1319028089
+    Data3: -62493774
+    Data4: 1450157942
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4761408339748328188}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 187
+--- !u!114 &-8818582654618395523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/woodenSurfaceEventName
+  m_EditorClassIdentifier: 
+  Path: event:/woodenSurfaceEventName
+  Guid:
+    Data1: -1366050709
+    Data2: 1158883428
+    Data3: 1277128339
+    Data4: -1927917600
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 465549026113412781}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 153
+--- !u!114 &-7776291958396230708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RecipeDisplay/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7773425615300658294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,16 +99,15 @@ MonoBehaviour:
     Data3: 827761818
     Data4: -1796964957
   Banks:
-  - {fileID: 2976602526127667950}
+  - {fileID: -6225325074364947853}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters:
-  - {fileID: -7223147677472118526}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7223147677472118526
+--- !u!114 &-7344930322472836186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38,21 +117,799 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Footsteps/Surface
+  m_Name: parameter:/ClientsAmbient/SoundsVolume
   m_EditorClassIdentifier: 
-  Name: Surface
+  Name: SoundsVolume
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 1022214498
-    data2: 563427858
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Normal
-  - Wood
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7305914120901849250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RollingDough
+  m_EditorClassIdentifier: 
+  Path: event:/RollingDough
+  Guid:
+    Data1: -939006059
+    Data2: 1087526567
+    Data3: 1758444986
+    Data4: 1243425901
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2169512122723440058}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-6930882249038431776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusic/MenuVolume
+  m_EditorClassIdentifier: 
+  Name: MenuVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 331339975
+    data2: 1236278377
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6717421815791649696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RecipeDisplay
+  m_EditorClassIdentifier: 
+  Path: event:/RecipeDisplay
+  Guid:
+    Data1: -387614369
+    Data2: 1304467352
+    Data3: -2052259935
+    Data4: -1435529776
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7776291958396230708}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 705
+--- !u!114 &-6665834554508080381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioMusic1
+  m_EditorClassIdentifier: 
+  Path: event:/RadioMusic1
+  Guid:
+    Data1: 298449351
+    Data2: 1145302006
+    Data3: 1275932571
+    Data4: -2038608908
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8142209269187151803}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 190275
+--- !u!114 &-6332511209007416848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FridgeClose
+  m_EditorClassIdentifier: 
+  Path: event:/FridgeClose
+  Guid:
+    Data1: 1321536450
+    Data2: 1152446427
+    Data3: 1254202514
+    Data4: 2073332238
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2122575066301021226}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 390
+--- !u!114 &-6225325074364947853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODBanks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638525182031239931
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6044023459990634328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FridgeOpen
+  m_EditorClassIdentifier: 
+  Path: event:/FridgeOpen
+  Guid:
+    Data1: 1477021232
+    Data2: 1238992036
+    Data3: 1021353103
+    Data4: 869524351
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2237761857551643512}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-6021902420311907938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FinishDish
+  m_EditorClassIdentifier: 
+  Path: event:/FinishDish
+  Guid:
+    Data1: -1254673613
+    Data2: 1242008226
+    Data3: 63576192
+    Data4: -1782633992
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1937
+--- !u!114 &-5707078984271886869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music
+  m_EditorClassIdentifier: 
+  Name: Music
+  StudioPath: parameter:/Music
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3439927066
+    data2: 3844073139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5540331924913163550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CuttingOnions/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5492719282428030565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ComputerLogout
+  m_EditorClassIdentifier: 
+  Path: event:/ComputerLogout
+  Guid:
+    Data1: -1141518679
+    Data2: 1225967814
+    Data3: -1372333436
+    Data4: -1721526295
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-5323272708623985832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ComputerLogin
+  m_EditorClassIdentifier: 
+  Path: event:/ComputerLogin
+  Guid:
+    Data1: -659491341
+    Data2: 1137672218
+    Data3: 942890140
+    Data4: 1873713235
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1280
+--- !u!114 &-4875927928142451836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ClientsAmbient
+  m_EditorClassIdentifier: 
+  Path: event:/ClientsAmbient
+  Guid:
+    Data1: -1872110081
+    Data2: 1320485495
+    Data3: 1174918059
+    Data4: -23097910
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7344930322472836186}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 283193
+--- !u!114 &-4761408339748328188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ThrowingDumplings/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4354885057533635209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SheetsPaperMenu
+  m_EditorClassIdentifier: 
+  Path: event:/SheetsPaperMenu
+  Guid:
+    Data1: -1596930447
+    Data2: 1306477109
+    Data3: -438934889
+    Data4: 265289416
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1504903104344806023}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 648
+--- !u!114 &-4286862431185640903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Keyboard
+  m_EditorClassIdentifier: 
+  Path: event:/Keyboard
+  Guid:
+    Data1: -1748780851
+    Data2: 1093317820
+    Data3: -375385953
+    Data4: 1914850421
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 384
+--- !u!114 &-4195975691772726651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fan
+  m_EditorClassIdentifier: 
+  Path: event:/Fan
+  Guid:
+    Data1: 1765008972
+    Data2: 1276307017
+    Data3: -430114944
+    Data4: 1073399460
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7943710956056087995}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47124
+--- !u!114 &-3866895328759769271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RadioMusic2/Music
+  m_EditorClassIdentifier: 
+  Name: Music
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3439927066
+    data2: 3844073139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3763287927723129690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ShapingDumplings/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3689053030448427440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ka-chingMoney
+  m_EditorClassIdentifier: 
+  Path: event:/Ka-chingMoney
+  Guid:
+    Data1: -12804089
+    Data2: 1161142524
+    Data3: 685713301
+    Data4: -413435536
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2507
+--- !u!114 &-2882240738177276427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AngrySounds
+  m_EditorClassIdentifier: 
+  Path: event:/AngrySounds
+  Guid:
+    Data1: -1853108480
+    Data2: 1338808291
+    Data3: -1541253723
+    Data4: -1468969284
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 932
+--- !u!114 &-2404443749343078411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MenuVolume
+  m_EditorClassIdentifier: 
+  Name: MenuVolume
+  StudioPath: parameter:/MenuVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 331339975
+    data2: 1236278377
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2169512122723440058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RollingDough/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1756617015932880156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TileSurfaceEventName/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1724771216056418975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: parameter:/SoundsVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1164129265787599966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/KneadingDough
+  m_EditorClassIdentifier: 
+  Path: event:/KneadingDough
+  Guid:
+    Data1: -972085521
+    Data2: 1157628024
+    Data3: 454500788
+    Data4: -828193819
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9128135044245410048}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 84743
+--- !u!114 &-779336012393117335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CuttingOnions
+  m_EditorClassIdentifier: 
+  Path: event:/CuttingOnions
+  Guid:
+    Data1: 1042127380
+    Data2: 1223362108
+    Data3: 830711468
+    Data4: -1826876774
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5540331924913163550}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 445
+--- !u!114 &-715715181492931076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TileSurfaceEventName
+  m_EditorClassIdentifier: 
+  Path: event:/TileSurfaceEventName
+  Guid:
+    Data1: -1974296682
+    Data2: 1098568529
+    Data3: -135176516
+    Data4: 969487343
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1756617015932880156}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 692
+--- !u!114 &-506062150075753063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Button
+  m_EditorClassIdentifier: 
+  Path: event:/Button
+  Guid:
+    Data1: 1957646116
+    Data2: 1248578238
+    Data3: 1493728428
+    Data4: -1571804355
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2698043564926218111}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120
+--- !u!114 &-416944775132488895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireplace/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -67,18 +924,57 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 3452588852112497347}
-  - {fileID: 2976602526127667950}
+  - {fileID: 2490609952513524498}
+  - {fileID: -6225325074364947853}
   EditorEvents:
   - {fileID: -7773425615300658294}
-  EditorParameters: []
+  - {fileID: -779336012393117335}
+  - {fileID: -506062150075753063}
+  - {fileID: 7114425444050377332}
+  - {fileID: -6717421815791649696}
+  - {fileID: -7305914120901849250}
+  - {fileID: 5724630336081728118}
+  - {fileID: 3182852464049973107}
+  - {fileID: -1164129265787599966}
+  - {fileID: 4251208406670711534}
+  - {fileID: 108889083004758124}
+  - {fileID: 6589342629669176082}
+  - {fileID: 391819618772765155}
+  - {fileID: -6044023459990634328}
+  - {fileID: -4195975691772726651}
+  - {fileID: 1984283282057745013}
+  - {fileID: -6332511209007416848}
+  - {fileID: 2059085348158807196}
+  - {fileID: -6665834554508080381}
+  - {fileID: 9013461393121061513}
+  - {fileID: -9033305130873873183}
+  - {fileID: -4875927928142451836}
+  - {fileID: -8818582654618395523}
+  - {fileID: -715715181492931076}
+  - {fileID: -4354885057533635209}
+  - {fileID: -2882240738177276427}
+  - {fileID: 329125315483386432}
+  - {fileID: -3689053030448427440}
+  - {fileID: 8081441659762526186}
+  - {fileID: -6021902420311907938}
+  - {fileID: 8585589561218276223}
+  - {fileID: 4596460885740595518}
+  - {fileID: 2808990179495896692}
+  - {fileID: 3017209279503987819}
+  - {fileID: -5492719282428030565}
+  - {fileID: -4286862431185640903}
+  - {fileID: -5323272708623985832}
+  EditorParameters:
+  - {fileID: -2404443749343078411}
+  - {fileID: -1724771216056418975}
+  - {fileID: -5707078984271886869}
   MasterBanks:
-  - {fileID: 2976602526127667950}
+  - {fileID: -6225325074364947853}
   StringsBanks:
-  - {fileID: 3452588852112497347}
-  cacheTime: 638371512388628591
+  - {fileID: 2490609952513524498}
+  cacheTime: 638525182031249932
   cacheVersion: 131609
---- !u!114 &2976602526127667950
+--- !u!114 &108889083004758124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,18 +983,257 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarsAmbient
   m_EditorClassIdentifier: 
-  Path: ../../Users/Aurigae/Documents/FMOD Studio/Dumplings/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638371512388608148
-  FileSizes:
-  - Name: Desktop
-    Value: 57408
+  Path: event:/CarsAmbient
+  Guid:
+    Data1: -103350941
+    Data2: 1104779674
+    Data3: -766387312
+    Data4: -1578138275
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7058011262662774449}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 131395
+--- !u!114 &329125315483386432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HourPass
+  m_EditorClassIdentifier: 
+  Path: event:/HourPass
+  Guid:
+    Data1: 1622957573
+    Data2: 1338869420
+    Data3: 1764717990
+    Data4: 2028235820
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1076
+--- !u!114 &391819618772765155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ThrowingObjects
+  m_EditorClassIdentifier: 
+  Path: event:/ThrowingObjects
+  Guid:
+    Data1: -1450064625
+    Data2: 1316516154
+    Data3: -824373829
+    Data4: -740563590
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5667340324644878405}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 381
+--- !u!114 &465549026113412781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/woodenSurfaceEventName/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
---- !u!114 &3452588852112497347
+--- !u!114 &1504903104344806023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SheetsPaperMenu/MenuVolume
+  m_EditorClassIdentifier: 
+  Name: MenuVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 331339975
+    data2: 1236278377
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1984283282057745013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  Guid:
+    Data1: -1857108865
+    Data2: 1086787630
+    Data3: -244437600
+    Data4: -1911284140
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6930882249038431776}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 82337
+--- !u!114 &2059085348158807196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Steam
+  m_EditorClassIdentifier: 
+  Path: event:/Steam
+  Guid:
+    Data1: -1201604668
+    Data2: 1167009645
+    Data3: -1434324325
+    Data4: -342444629
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6274891500667017250}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10135
+--- !u!114 &2122575066301021226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FridgeClose/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2217686838784074342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MinigameDone/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2237761857551643512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FridgeOpen/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2490609952513524498
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,11 +1245,530 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../Users/Aurigae/Documents/FMOD Studio/Dumplings/Build/Desktop/Master.strings.bank
+  Path: Assets/Audio/FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638371512388628591
+  lastModified: 638525182031249932
   FileSizes:
-  - Name: Desktop
-    Value: 808
+  - Name: 
+    Value: 2756
+  Exists: 1
+--- !u!114 &2698043564926218111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Button/MenuVolume
+  m_EditorClassIdentifier: 
+  Name: MenuVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 331339975
+    data2: 1236278377
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2808990179495896692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NegativeSoundTable
+  m_EditorClassIdentifier: 
+  Path: event:/NegativeSoundTable
+  Guid:
+    Data1: 1571180930
+    Data2: 1267293064
+    Data3: 850913967
+    Data4: 955031859
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1408
+--- !u!114 &3017209279503987819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ThrowingFood
+  m_EditorClassIdentifier: 
+  Path: event:/ThrowingFood
+  Guid:
+    Data1: 1902394793
+    Data2: 1089010712
+    Data3: -807234412
+    Data4: -2105945290
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52
+--- !u!114 &3182852464049973107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PuttingStuff
+  m_EditorClassIdentifier: 
+  Path: event:/PuttingStuff
+  Guid:
+    Data1: -1459513879
+    Data2: 1091475862
+    Data3: 2051983764
+    Data4: 1022072558
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4811155951302848513}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &4251208406670711534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ShapingDumplings
+  m_EditorClassIdentifier: 
+  Path: event:/ShapingDumplings
+  Guid:
+    Data1: -897306890
+    Data2: 1283922509
+    Data3: 163838094
+    Data4: -1592370848
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3763287927723129690}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 264
+--- !u!114 &4596460885740595518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PositiveSoundTable
+  m_EditorClassIdentifier: 
+  Path: event:/PositiveSoundTable
+  Guid:
+    Data1: -2006215071
+    Data2: 1284751399
+    Data3: 1785040303
+    Data4: 422962419
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1406
+--- !u!114 &4811155951302848513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PuttingStuff/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5667340324644878405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ThrowingObjects/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5724630336081728118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MixingStuffing
+  m_EditorClassIdentifier: 
+  Path: event:/MixingStuffing
+  Guid:
+    Data1: -417556777
+    Data2: 1220950516
+    Data3: -1048137285
+    Data4: -1256434745
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7538574335754161051}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38538
+--- !u!114 &6274891500667017250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steam/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6589342629669176082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fireplace
+  m_EditorClassIdentifier: 
+  Path: event:/Fireplace
+  Guid:
+    Data1: 1077685000
+    Data2: 1169384210
+    Data3: -148405606
+    Data4: 2117770432
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -416944775132488895}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 299023
+--- !u!114 &7058011262662774449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarsAmbient/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7114425444050377332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MinigameDone
+  m_EditorClassIdentifier: 
+  Path: event:/MinigameDone
+  Guid:
+    Data1: -156821441
+    Data2: 1326223710
+    Data3: 130286474
+    Data4: -920199153
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2217686838784074342}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 907
+--- !u!114 &7538574335754161051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MixingStuffing/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7943710956056087995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fan/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8081441659762526186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HappySounds
+  m_EditorClassIdentifier: 
+  Path: event:/HappySounds
+  Guid:
+    Data1: 1458779415
+    Data2: 1191937124
+    Data3: -4759902
+    Data4: 895706118
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1100
+--- !u!114 &8142209269187151803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RadioMusic1/Music
+  m_EditorClassIdentifier: 
+  Name: Music
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3439927066
+    data2: 3844073139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8585589561218276223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MouseClickingComp
+  m_EditorClassIdentifier: 
+  Path: event:/MouseClickingComp
+  Guid:
+    Data1: 722223445
+    Data2: 1246644609
+    Data3: -2047416391
+    Data4: 1097031998
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 384
+--- !u!114 &9013461393121061513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioMusic2
+  m_EditorClassIdentifier: 
+  Path: event:/RadioMusic2
+  Guid:
+    Data1: 113398992
+    Data2: 1126257831
+    Data3: -189412169
+    Data4: -1828479930
+  Banks:
+  - {fileID: -6225325074364947853}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3866895328759769271}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 170083
+--- !u!114 &9128135044245410048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/KneadingDough/SoundsVolume
+  m_EditorClassIdentifier: 
+  Name: SoundsVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2044536109
+    data2: 3973015382
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1

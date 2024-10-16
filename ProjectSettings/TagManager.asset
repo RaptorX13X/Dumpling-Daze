@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Onion
+  - Rolling
+  - GluingStart
+  - MixingStart
+  - RollingStart
+  - StuffingStart
+  - ChoppingStart
+  - Pierog
+  - WoodenSurface
+  - TileSurface
+  - ComputerScreen
+  - Ingredient
   layers:
   - Default
   - TransparentFX
@@ -11,15 +23,15 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Interactable
+  - Player
+  - Karen
+  - Normal
+  - Wood
+  - Ground
+  - TileSurface
+  - WoodenSurface
+  - ComputerScreen
   - 
   - 
   - 
@@ -40,4 +52,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Cursor
+    uniqueID: 484139031
     locked: 0
